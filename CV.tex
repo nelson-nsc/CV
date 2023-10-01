@@ -1,0 +1,156 @@
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\usepackage{fontawesome5}
+\pagenumbering{gobble} % remove page number
+\usepackage{enumitem} % minimise bullet point space
+\usepackage{hyperref} % hyperlink
+\usepackage[a4paper, total={7.5in, 10.5in}]{geometry} % narrow margin
+
+\setlength\parindent{0pt} % no paragrah indent
+
+\setmainfont{Times New Roman}
+\title{NELSON NGAI}
+
+% ENV: Section format
+\newenvironment{rSection}[1]{
+\vspace{0.5cm}
+\textbf{#1}
+\vspace{0.1cm}
+\hrule
+\vspace{0.2cm}
+}
+
+
+% COMMAND: Reduction itemize spacing
+\newcommand{\ritem}{
+\vspace{-0.2cm}
+\item 
+}
+
+% COMMAND: Insert emoji
+\newcommand{\emo}[1]{\space #1}
+
+
+\begin{document}
+% \maketitle
+\begin{center}
+    {\LARGE NELSON NGAI}\\
+    \vspace{0.3cm}
+    \emo{\faHome} CF11, Cardiff $\cdot$ \emo{\faMobile*} 07512863922 \\
+    \emo{\faPaperPlane[regular]} nelsonngai.aj@gmail.com $\cdot$ \href{https://github.com/nelson-nsc}{\emo{\faGithub} Github}
+\end{center}
+
+\begin{rSection}{PROFILE}
+Energetic and innovative professional, well-trained in Data Science and Machine Learning from UCL. Capable of developing and implementing advanced machine learning models and deep learning algorithms. Proficient in data processing, statistical analysis, and predictive modelling, with a primary focus on Python. Honed strong mathematical and problem-solving skills from  my formal training in theoretical physics.
+\end{rSection}
+
+\begin{rSection}{SKILLS}
+\textbf{Languages}
+\begin{itemize}
+    \ritem Proficient in Python, leveraging libraries such as numpy, matplotlib, ipywidgets, plotly, pandas, pyspark, scikit-learn, Pytorch, and statsmodels for comprehensive data analysis, visualization, and implementation of machine and deep learning techniques.
+    \ritem Familiar with MATLAB, Mathematica and SQL.
+\end{itemize}
+
+\textbf{Tools} 
+\begin{itemize}
+    \ritem  Proficient in Git, Docker for Collaboration and software development.
+    \ritem  Familiar with HTML5, CSS, nodejs, surge for web development.
+    \ritem  \LaTeX, Microsoft Office
+\end{itemize}
+
+\end{rSection}
+
+\begin{rSection}{WORK EXPERIENCE}
+\textbf{Kindred Group plc.} \hfill 2023 \\
+\textit{Data Science Intern}
+\begin{itemize}
+    \ritem Explored machine-learning based recommendation systems for implicit feedback through negative sampling techniques. 
+    \ritem Implemented models such as logistic regression and LightGBM; utilised sentence transformer for feature encoding.
+    \ritem Conducted residual analysis on the models' performance.
+\end{itemize}
+
+\textbf{The Hong Kong Space Museum} \hfill 2022 \\
+\textit{Programme Assistant}
+\begin{itemize}
+    \ritem Developed a Python bot to automate all-sky cameras and sky quality meters located in multiple county parks across Hong Kong. The bot adjusts camera settings such as exposure and ISO based on sky brightness, ensuring the images are perfectly exposed at any given time. The images feature real-time information overlay, including sky brightness, weather conditions, and visibility, providing valuable insights for individuals planning their stargazing trips.
+    \ritem Collaborated in the design of materials for outreach programs, which included creating presentation slides, worksheets, and DIY teaching kits. These resources aimed to facilitate the understanding of various physical phenomena and engineering concepts, such as electromagnetism and elementary rocket science.
+    \ritem Led and coached volunteers at museum and outreach events, organising logistic and demonstrating the use of equipment such as telescopes and cameras.
+    \ritem Provided technical support for live streaming on YouTube and Facebook using OBS Studio, setting up all necessary hardware to ensure smooth and seamless event execution.
+    \ritem Experienced in content creation, posting regularly about the newest exhibitions, upcoming astronomical events and general space knowledge across various social media platforms.
+\end{itemize}
+
+\textbf{Wo Muk} \hfill 2021 - 2022 \\
+\textit{Co-founder of takeaway business}
+\begin{itemize}
+    \ritem Managed liquidity, maintaining inventory controls, preparing comprehensive financial reports in Excel and Python, and administering expense reconciliations.
+    \ritem Established and nurtured excellent relationships with regular customers, meticulously attending to their individual needs.
+    \ritem Championed product promotion through online advertising and content creation across social media platforms.
+    \ritem Developed a Python-based Point of Sale system, automating data entry tasks.
+\end{itemize}
+
+\textbf{Tutor} \hfill 2016 - 2022 \\
+\textit{Previously engaged in multiple teaching centers in Hong Kong, as well as providing both individualized and group private tutoring sessions.}
+\begin{itemize}
+    \ritem Conducted Mathematics and Physics lessons for secondary school students, effectively tailoring teaching strategies to accommodate individual student strengths and weaknesses.
+    \ritem Delivered both in-person and online lessons, demonstrating proficiency in leveraging technology to enhance teaching effectiveness.
+\end{itemize}
+
+\end{rSection}
+
+\begin{rSection}{ACADEMIC EXPERIENCE}
+\textbf{University College London} \hfill 2022 - 2023 \\
+\textit{Individual and collaborative projects across selective modules}
+\begin{itemize}
+    \ritem \textit{Applied Deep Learning $|$ Pytorch, Google Colab:} Collaborated with an 8-member team on a project focused on semantic image segmentation. The project involved contrasting the performance of conventional supervised learning algorithms with the Mean-Teacher semi-supervised algorithm.
+    \ritem \textit{Statistical Natural Language Processing $|$ Python, Huggingface \href{https://github.com/nelson-nsc/COMP0087-NLP-project}{\faGithub}:} Led and delegated tasks within a 4-member team to develop a code generation application, focusing on fine-tuning large language models, including GPT-2, T-5, and Marian-MT.
+    \ritem \textit{Algorithmic Trading $|$ Python, scikit-learn:} Applied time series analysis, ARMA modeling, and conducted Gaussianity and stationarity tests on historical stock indices. Also explored various trending strategies for leverage trading.
+    \ritem \textit{Applied Machine Learning $|$ Python, Pytorch, scikit-learn \href{https://github.com/nelson-nsc/UCL-COMP0081}{\faGithub}:} Implemented popular algorithms including Random Forest, AdaBoost, and Support Vector Machine from scratch, thereby gaining a deep understanding of their underlying mechanisms and operations.
+    \ritem \textit{Introduction to Statistical Data Science $|$ Python, statsmodels:} Collaborated with a team of six students to perform statistical analysis on the UCI dataset, focusing particularly on hypothesis testing for goodness-of-fit and two-sample tests.
+\end{itemize}
+
+\textbf{Imperial College London} \hfill 2019 - 2020 \\
+\textit{Thesis: An Introduction to Quantum Cosmology and Solutions to the Wheeler-DeWitt Equation.} Supervisor: \href{https://en.wikipedia.org/wiki/João_Magueijo}{João Magueijo}
+\begin{itemize}
+    \ritem Established the mathematical foundation of Quantum Cosmology and derived the Wheeler-DeWitt Equation, which shares an analogous structure to Schrödinger's Equation in Quantum Mechanics. A closed-form solution for this equation was identified.
+\end{itemize}
+
+
+
+\end{rSection}
+
+
+\begin{rSection}{EDUCATION}
+\textbf{University College London} \hfill London, England \\
+\textit{MSc Data Science and Machine Learning}, Distinction (predicted) \hfill 2022 - 2023 \\
+\textbf{Imperial College London} \hfill London, England \\
+\textit{MSc Physics}, Distinction \hfill 2019 - 2020 \\
+\textbf{Cardiff University} \hfill Cardiff, Wales \\
+\textit{BSc Physics with Astronomy}, $1^{st}$ class honours \hfill 2016 - 2019
+\end{rSection}
+
+\begin{rSection}{CERTIFICATIONS AND OTHER EXPERIENCE}
+
+% \begin{itemize}
+%     \ritem \href{https://www.udemy.com/certificate/UC-1ab77367-2632-49ad-8a27-d44971fc5fba/}{Data Structures Algorithms - Python} $|$ Udemy \hfill 2022
+%     \ritem 
+% \end{itemize}
+
+\textbf{Volunteering}
+\begin{itemize}
+    \ritem \textit{Mentor of $16^{th}$ Hong Kong Scout Group (2015 - 2023):} Organized meetings and imparted vital skills such as outdoor survival, backwoods cooking, pioneering, camping, and first aid to new scouts members.
+    \ritem \textit{Standard Chartered Hong Kong Marathon (2012 - 2013):} Volunteered at the annual Marathon, contributing to participant registration, safeguarding belongings, and efficiently managing event logistics.
+\end{itemize}
+
+\textbf{Hobbies}
+\begin{itemize}
+    \ritem Workout and Calisthenics. I keep track of my progress \href{https://workout.streamlit.app/}{\textit{here}}.
+    \ritem Grade 8 Piano.
+    \ritem Basketball - Member of the Cardiff Hong Kong Basketball Team from 2016 - 2019.
+\end{itemize}
+
+\end{rSection}
+
+
+
+
+\end{document}
